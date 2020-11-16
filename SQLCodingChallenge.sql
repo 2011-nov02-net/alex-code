@@ -32,5 +32,7 @@ SELECT * FROM Store.Orders
 WHERE CutomerID =	(SELECT Id FROM Store.Customers
 					WHERE FirstName = 'Tina' AND LastName = 'Smith')
 
-
+SELECT SUM(P.Price) as Total FROM Store.Orders as O INNER JOIN Store.Products as P ON O.ProductID = P.Id
+WHERE P.Id =	(SELECT Id FROM Store.Products
+				WHERE Name = 'Iphone')
 					
