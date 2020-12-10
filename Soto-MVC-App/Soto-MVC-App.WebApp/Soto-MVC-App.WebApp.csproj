@@ -1,9 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
-
-  <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>Soto_MVC_App.WebApp</RootNamespace>
-    <UserSecretsId>9805d74c-9446-4141-b33b-6e6b298d4694</UserSecretsId>
-  </PropertyGroup>
-
-</Project>
